@@ -9,8 +9,6 @@ This project can receive requests from clients as a server via sockets.
 Press "CTRL+X"   
 (Server is still running)
 
-### How to turn off server:
-Learn "PID number" of your server with this command:   
-  ``ps -ux | grep 'mp-server.py' | awk 'NR==1{print $2}'``
-##### Then
-  ``kill "PID number"``
+### How to turn off server:   
+  ``mp-ServerPID=$(ps -ux | grep 'mp-server.py' | awk 'NR==1{print $2}')``
+  ``kill $mp-ServerPID``
