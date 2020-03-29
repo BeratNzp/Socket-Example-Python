@@ -1,5 +1,5 @@
 # Socket-Server-Example
-This project can receive requests from clients as a server via sockets.
+This project can receive requests from clients as a server via sockets. And its running with TCP Protocols.
 
 ### How to turn on server:
 ``chmod +x mp-server.py``   
