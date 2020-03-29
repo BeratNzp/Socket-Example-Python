@@ -3,8 +3,8 @@ This project can receive requests from clients as a server via sockets
 
 ## How to turn on server:
   'code'
-  chmod +x mp-server.py..
-  ./mp-server.py &..
+  chmod +x mp-server.py.
+  ./mp-server.py &.
   'code'
 
 ## How to turn back to terminal:
