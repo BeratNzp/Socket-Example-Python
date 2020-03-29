@@ -10,5 +10,5 @@ Press "CTRL+X"
 (Server is still running)
 
 ### How to turn off server:   
-``mp-ServerPID=$(ps -ux | grep 'mp-server.py' | awk 'NR==1{print $2}')``   
+``mpServerPID=$(ps -ux | grep 'mp-server.py' | awk 'NR==1{print $2}')``   
 ``kill $mp-ServerPID``
