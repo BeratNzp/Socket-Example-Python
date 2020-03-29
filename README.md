@@ -2,13 +2,11 @@
 This project can receive requests from clients as a server via sockets.
 
 ### How to turn on server:
-  ``chmod +x mp-server.py``
-  
+  ``chmod +x mp-server.py``. 
   ``./mp-server.py &``
 
 ### How to turn back to terminal:
-Press CTRL+X"
-
+Press CTRL+X". 
 (Server is still running)
 
 ### How to turn off server:
