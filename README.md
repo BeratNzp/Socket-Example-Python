@@ -1,11 +1,10 @@
 # Socket-Server-Example
-This project can receive requests from clients as a server via sockets
+This project can receive requests from clients as a server via sockets.
 
 ## How to turn on server:
-  'code'
-  chmod +x mp-server.py.
-  ./mp-server.py &.
-  'code'
+  chmod +x mp-server.py
+  
+  ./mp-server.py &
 
 ## How to turn back to terminal:
 Press "CTRL+X"
