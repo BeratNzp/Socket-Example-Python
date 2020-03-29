@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 from socket import * # Import all modules of 'socket' library
-import threading # Import 'threading' module
+import threading # Import 'threading' library
 
 bindIP = "0.0.0.0" # Set Server IP
 bindPort = 12000 # Set Server Port
