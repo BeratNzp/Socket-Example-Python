@@ -6,7 +6,7 @@ This project can receive requests from clients as a server via sockets.
   ``./mp-server.py &``
 
 ### How to turn back to terminal:
-Press CTRL+X"  
+Press "CTRL+X"   
 (Server is still running)
 
 ### How to turn off server:
