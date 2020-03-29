@@ -15,7 +15,6 @@ Press CTRL+X"
 Learn "PID number" of your server with this command:
 
   ``ps -ux | grep 'mp-server.py' | awk 'NR==1{print $2}'``
-  
-#### Then
+##### Then
 
   ``kill "PID number"``
