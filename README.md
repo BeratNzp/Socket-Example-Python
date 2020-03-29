@@ -6,13 +6,11 @@ This project can receive requests from clients as a server via sockets.
   ``./mp-server.py &``
 
 ### How to turn back to terminal:
-Press CTRL+X". 
+Press CTRL+X"  
 (Server is still running)
 
 ### How to turn off server:
-Learn "PID number" of your server with this command:
-
+Learn "PID number" of your server with this command:   
   ``ps -ux | grep 'mp-server.py' | awk 'NR==1{print $2}'``
 ##### Then
-
   ``kill "PID number"``
