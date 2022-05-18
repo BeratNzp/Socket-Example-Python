@@ -2,13 +2,13 @@
 This project can receive requests from clients as a server via sockets. And its running with TCP Protocols.
 
 ### How to turn on server:
-``chmod +x mp-server.py``   
-``./mp-server.py &``
+``chmod +x server.py``   
+``./server.py &``
 
 ### How to turn back to terminal:
 Press "CTRL+C"   
 (Server is still running)
 
 ### How to turn off server:   
-``mpServerPID=$(ps -ux | grep 'mp-server.py' | awk 'NR==1{print $2}')``   
-``kill $mpServerPID``
+``socketServerPythonPID=$(ps -ux | grep 'server.py' | awk 'NR==1{print $2}')``   
+``kill $socketServerPythonPID``
